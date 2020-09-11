@@ -13,9 +13,27 @@ You should have installed the Windows Terminal on your system. If you havent ins
 > 👉 Note: Windows Terminal requires Windows 10 1903 (build 18362) or later
 
 ## Step 1
-Copy and pase the `terminal` folder to `C:\Users\<username>\AppData\Local`.
+Open Windows Terminal and Open settings. use Command `Ctrl + ,` or by clicking the drop down menu.  
+
+<img src="https://github.com/MisterJ936/Explorer-Context-Menu-Integration-for-windows-terminal/blob/master/images/open%20setting.png?raw=true" />
+
+and then under profile -> default: add `startingDirectory`
+
+```
+"profiles": {
+     "defaults" : {
+          ...
+          "startingDirectory": "." //add this
+     }
+}
+```
+
+<img src="https://github.com/MisterJ936/Explorer-Context-Menu-Integration-for-windows-terminal/blob/master/images/add%20startingdirectory.png?raw=true" />
 
 ## Step 2
+Copy and pase the `terminal` folder to `C:\Users\<username>\AppData\Local`.
+
+## Step 3
 Run the `Install.bat` to add registries. And You Done  
 
 
