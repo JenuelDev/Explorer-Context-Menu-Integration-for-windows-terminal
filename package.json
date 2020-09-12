@@ -1,0 +1,21 @@
+{
+  "name": "windows-terminal-context-menu",
+  "version": "0.0.2",
+  "description": "This is a bat file that would easily register the context menu for the windows terminal.",
+  "main": "index.js",
+  "scripts": {
+    "build": "@powershell -NoProfile -ExecutionPolicy Unrestricted -Command ./package.ps1",
+    "test": "@powershell -NoProfile -ExecutionPolicy Unrestricted -Command ./test.ps1",
+    "build-bat": "@powershell -NoProfile -ExecutionPolicy Unrestricted -Command ./bat.ps1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MisterJ936/Explorer-Context-Menu-Integration-for-windows-terminal.git"
+  },
+  "author": "BroJenuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MisterJ936/Explorer-Context-Menu-Integration-for-windows-terminal/issues"
+  },
+  "homepage": "https://github.com/MisterJ936/Explorer-Context-Menu-Integration-for-windows-terminal#readme"
+}
