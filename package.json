@@ -1,6 +1,6 @@
 {
   "name": "windows-terminal-context-menu",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This is a bat file that would easily register the context menu for the windows terminal.",
   "main": "index.js",
   "scripts": {
