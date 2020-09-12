@@ -10,8 +10,10 @@ You should have installed the Windows Terminal on your system. If you havent ins
 - [Microsoft Store](https://aka.ms/terminal) - you directly download it on the Microsoft Store.
 - [Terminal GitHub](https://github.com/microsoft/terminal#other-install-methods) - you can read more here Other install methods
 
-> 👉 Note: Windows Terminal requires Windows 10 1903 (build 18362) or later
+> 👉 Note: Windows Terminal requires Windows 10 1903 (build 18362) or later  
+# Download the latest release [HERE]()
 
+# Steps To DO
 ## Step 1
 Open Windows Terminal and Open settings. use Command `Ctrl + ,` or by clicking the drop down menu.  
 
@@ -31,10 +33,7 @@ and then under profile -> default: add `startingDirectory`
 <img src="https://github.com/MisterJ936/Explorer-Context-Menu-Integration-for-windows-terminal/blob/master/images/add%20startingdirectory.png?raw=true" />
 
 ## Step 2
-Copy and pase the `terminal` folder to `C:\Users\<username>\AppData\Local`.
-
-## Step 3
-Run the `Install.bat` to add registries. And You Done  
+Run the `Install.bat` to automatically configure the context menu for you. 
 
 
 # Have a Nise Day! 😄👍👊
