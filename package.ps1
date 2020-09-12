@@ -4,12 +4,14 @@ $buildNumber = "$version"
 
 $fileName = 'Source_'+ $buildNumber + '.zip'
 
-$path = 'package'
-
-if([System.IO.File]::Exists($path)){
+$path = "package"
+if(Test-Path .\$path) {
      Remove-Item ./$path -Recurse
      New-Item -Path . -Name $path -ItemType "directory"
+}else{
+     New-Item -Path . -Name $path -ItemType "directory"
 }
+
 
 if(![System.IO.File]::Exists($path+'/'+$fileName)){
      $compress = @{

@@ -9,7 +9,6 @@ if([System.IO.File]::Exists($path+'\terminal')){
      Remove-Item ./$path/terminal -Recurse
      New-Item -Path . -Name $path\terminal -ItemType "directory"
 }
-Copy-Item -Path .\src\terminal\wt.reg -Destination .\$path\terminal -PassThru
 Copy-Item -Path .\src\terminal\wt_32.ico -Destination .\$path\terminal -PassThru
 
 
