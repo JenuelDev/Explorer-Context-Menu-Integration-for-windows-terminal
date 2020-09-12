@@ -11,7 +11,7 @@ You should have installed the Windows Terminal on your system. If you havent ins
 - [Terminal GitHub](https://github.com/microsoft/terminal#other-install-methods) - you can read more here Other install methods
 
 > 👉 Note: Windows Terminal requires Windows 10 1903 (build 18362) or later  
-## Download the latest release [HERE](https://github.com/MisterJ936/Explorer-Context-Menu-Integration-for-windows-terminal/releases)
+## Download the latest release [HERE](https://github.com/MisterJ936/Explorer-Context-Menu-Integration-for-windows-terminal/files/5212523/Source_0.0.1.zip)
 
 Follow This Steps After Downloading, and will configure everything for you.
 
