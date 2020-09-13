@@ -1,6 +1,8 @@
 $path = 'test'
-if([System.IO.File]::Exists($path)){
+if(Test-Path .\$path){
      Remove-Item ./$path -Recurse
+     New-Item -Path . -Name $path -ItemType "directory"
+}else{
      New-Item -Path . -Name $path -ItemType "directory"
 }
 Copy-Item -Path .\src\bat\Install.bat -Destination .\$path -PassThru
