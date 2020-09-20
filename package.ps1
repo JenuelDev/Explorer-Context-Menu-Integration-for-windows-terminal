@@ -4,7 +4,7 @@ $buildNumber = "$version"
 
 $fileName = 'Source_'+ $buildNumber + '.zip'
 
-$path = "package"
+$path = "release"
 if(Test-Path .\$path) {
      Remove-Item ./$path -Recurse
      New-Item -Path . -Name $path -ItemType "directory"
@@ -17,7 +17,7 @@ if(![System.IO.File]::Exists($path+'/'+$fileName)){
      $compress = @{
           Path = "src/terminal", "src/bat/Install.bat","src/bat/Uninstall.bat"
           CompressionLevel = "Fastest"
-          DestinationPath = 'package\' + $fileName
+          DestinationPath = $path + '\' + $fileName
      }
      Compress-Archive @compress
      Write-Host $path+'/'+$fileName "Created Successfully!"
