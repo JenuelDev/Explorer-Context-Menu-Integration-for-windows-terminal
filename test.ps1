@@ -7,8 +7,10 @@ if(Test-Path .\$path){
 }
 Copy-Item -Path .\src\bat\Install.bat -Destination .\$path -PassThru
 Copy-Item -Path .\src\bat\Uninstall.bat -Destination .\$path -PassThru
-if([System.IO.File]::Exists($path+'\terminal')){
+if(Test-Path .\$path\'terminal'){
      Remove-Item ./$path/terminal -Recurse
+     New-Item -Path . -Name $path\terminal -ItemType "directory"
+}else{
      New-Item -Path . -Name $path\terminal -ItemType "directory"
 }
 Copy-Item -Path .\src\terminal\wt_32.ico -Destination .\$path\terminal -PassThru
