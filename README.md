@@ -15,25 +15,8 @@ You should have installed the Windows Terminal on your system. If you havent ins
 
 Download and Extract files and Follow This Steps After Downloading, and will configure everything for you.
 
-## Step 1
-Open Windows Terminal and Open settings. use Command `Ctrl + ,` or by clicking the drop down menu.  
+## Install
 
-<img src="https://github.com/MisterJ936/Explorer-Context-Menu-Integration-for-windows-terminal/blob/master/images/open%20setting.png?raw=true" />
-
-and then under profile -> default: add `startingDirectory`
-
-```
-"profiles": {
-     "defaults" : {
-          ...
-          "startingDirectory": "." //add this
-     }
-}
-```
-
-<img src="https://github.com/MisterJ936/Explorer-Context-Menu-Integration-for-windows-terminal/blob/master/images/add%20startingdirectory.png?raw=true" />
-
-## Step 2
 Run the `Install.bat` to automatically configure the context menu for you. 
 
 
