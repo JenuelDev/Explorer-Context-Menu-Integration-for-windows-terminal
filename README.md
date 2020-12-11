@@ -19,6 +19,22 @@ Download and Extract files and Follow This Steps After Downloading, and will con
 
 Run the `Install.bat` to automatically configure the context menu for you. 
 
+### After Insalling You can edit The settings, so that when ever you click new tab it will always open in the same directory. `this is optional`
+To open settings, open Windows Terminal and go to settings and add this just inside the default:
+
+```lang-js
+{
+...
+  "profiles": {
+          "defaults": {
+              ...
+              "startingDirectory": "."
+              ...
+          },
+          ...
+    }
+}
+```
 
 # Have a Nise Day! 😄👍👊
 
