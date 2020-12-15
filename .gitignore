@@ -1,1 +1,7 @@
 test
+/**/*.exe
+/**/*.sed
+/release/
+
+# allow
+!release/**/*.zip
