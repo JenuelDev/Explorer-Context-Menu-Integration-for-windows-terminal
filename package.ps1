@@ -2,7 +2,7 @@ $version = (Get-Content package.json) -join "`n" | ConvertFrom-Json | Select-Obj
 
 $buildNumber = "$version"
 
-$fileName = 'Source_'+ $buildNumber + '.zip'
+$fileName = 'WTerminalCM_'+ $buildNumber + '.zip'
 
 $path = "release"
 if(Test-Path .\$path) {
@@ -15,7 +15,7 @@ if(Test-Path .\$path) {
 
 if(![System.IO.File]::Exists($path+'/'+$fileName)){
      $compress = @{
-          Path = "src/terminal", "src/bat/Install.bat","src/bat/Uninstall.bat"
+          Path = "src/wt_64.ico", "src/Install.bat","src/Uninstall.bat"
           CompressionLevel = "Fastest"
           DestinationPath = $path + '\' + $fileName
      }

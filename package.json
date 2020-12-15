@@ -4,9 +4,7 @@
   "description": "This is a bat file that would easily register the context menu for the windows terminal.",
   "main": "index.js",
   "scripts": {
-    "build": "@powershell -NoProfile -ExecutionPolicy Unrestricted -Command ./package.ps1",
-    "test": "@powershell -NoProfile -ExecutionPolicy Unrestricted -Command ./test.ps1",
-    "build-bat": "@powershell -NoProfile -ExecutionPolicy Unrestricted -Command ./bat.ps1"
+    "build": "@powershell -NoProfile -ExecutionPolicy Unrestricted -Command ./package.ps1"
   },
   "repository": {
     "type": "git",
