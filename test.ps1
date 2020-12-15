@@ -13,7 +13,7 @@ if(Test-Path .\$path\'terminal'){
 }else{
      New-Item -Path . -Name $path\terminal -ItemType "directory"
 }
-Copy-Item -Path .\src\terminal\wt_32.ico -Destination .\$path\terminal -PassThru
+Copy-Item -Path .\src\terminal\wt_64.ico -Destination .\$path\terminal -PassThru
 
 
 Read-Host -Prompt "Press Enter to exit"

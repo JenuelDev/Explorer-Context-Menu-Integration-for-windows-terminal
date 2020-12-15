@@ -1,5 +1,5 @@
 
-<img src="https://github.com/MisterJ936/Explorer-Context-Menu-Integration-for-windows-terminal/blob/master/images/icon.png?raw=true" align="right" width="150" />
+<img src="https://github.com/MisterJ936/Explorer-Context-Menu-Integration-for-windows-terminal/blob/master/images/icon-v2.png?raw=true" align="right" width="150" />
 
 # Explorer Context Menu Integration for Windows Terminal
 By just installing this bat files, will automatically add the options on your Context Menu when right-clicking to a folder or inside a folder.
