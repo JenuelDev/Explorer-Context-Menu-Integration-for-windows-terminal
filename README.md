@@ -43,5 +43,4 @@ To open settings, open Windows Terminal and go to settings and add this just ins
 
 # Have a Nise Day! 😄👍👊
 
-### Give me Coffee ☕
-[DONATE HERE](https://paypal.me/mrj936)
+[Give me Coffee ☕](https://paypal.me/mrj936) hehe 😁😘👌
