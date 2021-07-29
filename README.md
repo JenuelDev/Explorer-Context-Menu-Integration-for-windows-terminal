@@ -1,4 +1,5 @@
 # [DEPRECATED]
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 > ### Note: The functionality available in this repository is probably no longer useful for versions 1.9.x and above. And this is no longer supported.
 
 
